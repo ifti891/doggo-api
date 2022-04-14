@@ -12,9 +12,17 @@ header{
 }
 
 select{
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .section-container{
   display: flex;
+  flex-direction: row;
+  border: 2px solid blue;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.column{
+  border: 2px solid rgb(240, 85, 111);
 }
