@@ -1,59 +1,53 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html lang="en">
 
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Doggo Info</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dog Generator</title>
     <link rel="stylesheet" href="assets/stylesheet.css">
   </head>
 
   <body>
     <header>
-      <h1>Dog Viewer</h1>
-      <span id="dog-name">Homepage Dog</span>
+      <h1>Doggo Viewer</h1>
+      <span id="dog-name">Dougie the Default Doggo</span>
     </header>
     <section class="section-container">
-      <section class="column">
+      <section class='column' id="left-column">
         <section class="item">
-          <span>Choose a dog</span>
+          <span>Choose your Breed!</span>
         </section>
         <section class="item">
-          <select name="" id="">
+          <select>
             <option value="starter" selected>Select Me!</option>
           </select>
         </section>
         <section class="item">
           <section class="img-container">
             <section class="container">
-              <div>🐶🐶🐶🐶🐶</div>
-              <img src="http://placecorgi.com/260/180" class="dog-img" alt="dog" />
+              <div>🐶🐶🐶🐶🐶🐶🐶</div>
+              <img src="http://placecorgi.com/500/500" class='dog-img' alt='cute corgi for the homepage' />
             </section>
           </section>
         </section>
-        <section class="column">
-          <section class="item">
-            <span>Dog Characteristics</span>
-            <ul>
-              <li id="MF">S: Male</li>
-              <li id="age">Age: 2</li>
-              <li id="likes">Likes: Meat, Sleep, Play</li>
-              <li id="dislikes">Dislikes: Baths</li>
-              <li id="fun-fact"> Additional Info: On every walks starts running</li>
-            </ul>
-          </section>
-
+      </section>
+      <section class='column'>
+        <section class="item">
+          <span>Doggo Characteristics</span>
+          <ul>
+            <li id="MF">S: Male</li>
+            <li id="age">Age: 2</li>
+            <li id="likes">Likes: Ham, String Cheese</li>
+            <li id="dislikes">Dislikes: Baths, Entropy</li>
+            <li id="fun-fact">Additional Info: On every walk, has to visit that one spot where they found a piece of
+              cheese on the ground six months ago.</li>
+          </ul>
         </section>
       </section>
-
-
-      <script src="main.js" async defer></script>
+    </section>
+    <script src="main.js"></script>
   </body>
 
 </html>
