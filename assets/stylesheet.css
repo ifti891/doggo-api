@@ -24,5 +24,18 @@ select{
 }
 
 .column{
+  flex: 1;
   border: 2px solid rgb(240, 85, 111);
+
+}
+
+img {
+  max-width: 700px;
+  max-height: 500px;
+}
+
+span{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.3rem;
 }
