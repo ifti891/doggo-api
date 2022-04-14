@@ -8,17 +8,39 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Doggo api</title>
+    <title>Doggo Info</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/stylesheet.css">
   </head>
 
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
+    <header>
+      <h1>Dog Viewer</h1>
+      <span id="dog-name">Homepage Dog</span>
+    </header>
+    <section class="section-container">
+      <section class="column">
+        <section class="item">
+          <span>Choose your dog</span>
+        </section>
+        <section class="item">
+          <select>
+            <option value="started" selected> Select me</option>
+          </select>
+        </section>
+      </section>
+      <section class="column">
+        <section class="item">
+          <section class="img-container">
+            <div>🐶🐶🐶🐶🐶🐶</div>
+            <img src="http://placecorgi.com/250" class="dog-img" alt="corgi photo" />
+          </section>
+          <section class="container"></section>
+        </section>
+        <section class="item"></section>
+      </section>
+    </section>
     <script src="main.js" async defer></script>
   </body>
 
